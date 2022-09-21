@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    color: blue;
+    margin: 0.5rem;
+}
+
+p{
+    margin: 0.5rem;
+}
+
+input{
+    margin: 0.5rem;
+    padding: 2rem;
+    border: 2px solid blue;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+.long{
+    width: 30rem;
+}
+
+.cont{
+    display: flex;
+    height: 100vh;
+}
+
+.div1, .div2{
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div2{
+    background-color: blue;
+}
+
+.img1{
+    width: 100%;
+}
+
+button{
+    margin: 0.5rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    width: 90%;
+    font-size: 2rem;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+@media only screen and (max-width: 600px) {
+    img{
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
