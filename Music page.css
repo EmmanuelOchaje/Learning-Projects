@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.0rem;
+}
+
+.first-cover{
+    background-image: url(../images/beatz.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    color: white;
+    text-align: center ;
+}
+
+
+ul{
+    list-style: none;
+    margin: auto;
+    
+}
+.push{
+    display:inline ;
+    margin: 40px;
+    font-size: 1.2rem;
+    
+}
+.push-left{
+    font-size: 1.5rem;
+    margin-left:right ;
+    color: orangered;
+    float: left ;
+    margin: 0;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    padding-top:10rem;
+}
+.btn1{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    border: 0.1rem solid orangered;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    font-family: 'Libre Baskerville', serif;
+    background-color: transparent;
+}
+div{
+    margin: 0px;   
+}
+img{
+    float: right;
+    width:30rem;
+    height: 27rem;
+}
+.second-cover{
+    width: 100%;
+    height: 370vh;
+    background-color: rgb(68, 66, 66);
+    color: white;
+    border: 0.1rem solid rgb(65, 65, 65) ;
+    
+}
+.head1{
+    width: 9rem;
+    margin: 3rem;
+    border-left: 5px solid orangered;
+    border-right: 5px solid orangered;
+}
+.lorem{
+    letter-spacing: 2px;
+    margin-left: 3rem;
+}
+.btn2{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    background-color: orangered;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px;
+}
+.d-bar{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    width: 70%;
+    height: 5rem;
+    background-color: rgb(168, 47, 3);
+    border: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    padding-left: 5rem;
+}
+
+.para2{
+    margin-left: 7rem; 
+}
+.inp1{
+    width: 25rem;
+    height: 3rem;
+    border: 1px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    margin: 1rem;
+    margin-left:5rem;
+}
+.btn3{
+    color: white;
+    background-color: orangered;
+    font-size: 1.2rem;
+    font-family: 'Libre Baskerville', serif;
+    border: 1px;
+    border-radius: 7px;
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem;
+    margin-left: 7rem;
+}
+.head2{
+   width: 170px;
+    border-left: 5px solid orangered;
+    border-right: 5px solid orangered;
+   text-align: center;
+}
+.head3{
+    width: 100;
+    height: auto;
+    padding-left: 45%;
+}
+.d-grid{
+    margin-top: 1rem;
+    margin-left: 5%;
+    width: 75rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+.para3{
+    margin: 1rem;
+}
+.grd{
+    margin: 2rem;
+
+}
+.btn4{
+    border: 1px;
+    border-left: white;
+    padding-left: 7rem;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(168, 47, 3);
+    width: 100%;
+    height: 3rem;
+    float: end;
+   
+}
+.btn4:hover{
+    background-color: orangered;
+}
+.grd1{
+    padding-top: 0.2rem;
+    height: 15rem;
+    background-color: rgb(36, 35, 35);
+}
+.try2{
+    text-align: center;
+    width: 250px;
+    height: 12rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 50px;
+    margin-left: 5rem;
+}
+.try1{
+    margin: 25px;
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    border-radius: 7px;;
+}
+.cho{
+    font-size: 30px;
+    font-weight: bold;
+    color:orangered;
+}
+.head4{
+    color: orangered;
+    text-align: center;
+}
+.para4{
+text-transform: capitalize;
+text-align: center;
+}
+.grd2{
+    margin: 25px;
+    margin-left:110px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grd3{
+    padding: 15px;
+    color: black;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 7px;
+}
+.flx{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 70vh;
+}
+.flx1{
+    display: flex;
+}
+.flx2{
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    padding-top: 50px;
+    text-align:center ;
+    
+}
+.lnk{
+    color: black;
+}
+.smalld{
+    width: 400px;
+    height: 300px;
+    padding-top: 70px;
+}
+.para5{
+    text-align: center;
+}
+.head5{
+    color: orangered;
+    font-size: 40px;
+}
+.fa-brands{
+    font-size: 1.5rem;
+}
